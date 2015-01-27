@@ -38,7 +38,7 @@ var app = {
             text:"Loading Please wait",
             textVisible: true
         });
-        window.location="http://royalsweet.esy.es/about-us";
+        window.location="http://royalsweet.esy.es/products";
         //app.receivedEvent('deviceready');
     },
     // Update DOM on a Received Event
