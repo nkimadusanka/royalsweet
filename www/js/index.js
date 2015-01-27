@@ -38,12 +38,7 @@ var app = {
             text:"Loading Please wait",
             textVisible: true
         });
-        var networkState = checkConnection();
-        if (networkState == Connection.NONE) {
-            navigator.notification.alert('This app requires an internet connection');
-        } else {
-             window.location="http://royalsweet.esy.es/about-us";
-        }
+        window.location="http://royalsweet.esy.es/about-us";
         //app.receivedEvent('deviceready');
     },
     // Update DOM on a Received Event
@@ -51,17 +46,4 @@ var app = {
         
     }
 };
-
-function checkConnection() {
-    var networkState = navigator.network.connection.type;
-    var states = {};
-    states[Connection.UNKNOWN]  = 'Unknown connection';
-    states[Connection.ETHERNET] = 'Ethernet connection';
-    states[Connection.WIFI]     = 'WiFi connection';
-    states[Connection.CELL_2G]  = 'Cell 2G connection';
-    states[Connection.CELL_3G]  = 'Cell 3G connection';
-    states[Connection.CELL_4G]  = 'Cell 4G connection';
-    states[Connection.NONE]     = 'No network connection';
-    return networkState;
-}
 
