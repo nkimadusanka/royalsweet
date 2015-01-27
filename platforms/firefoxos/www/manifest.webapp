@@ -1,0 +1,25 @@
+{
+    "launch_path": "/index.html",
+    "installs_allowed_from": [
+        "*"
+    ],
+    "version": "1.0.0",
+    "name": "Royal Sweet Mart",
+    "description": "Royal Sweetmeat Mart, one of the Pioneers in manufacturing and selling Delicious Indian Sweets in Sri Lanka; has been in operation since 1950. Being an innovator in the trade with its ever expanding variety of Indian Sweets, and a knack for knowing exactly how to satisfy everyone's sweet tooth, Royal Sweetmeat Mart became one of the must-go destinations where ever it set up one of its outlets.",
+    "developer": {
+        "name": "PhoneGap Team",
+        "url": "http://phonegap.com"
+    },
+    "fullscreen": "true",
+    "orientation": [
+        "default"
+    ],
+    "icons": {
+        "57": "/icon/icon-57.png",
+        "60": "/icon/icon-60.png",
+        "72": "/icon/icon-72.png",
+        "114": "/icon/icon-114.png",
+        "128": "/icon/icon-128.png",
+        "144": "/icon/icon-144.png"
+    }
+}
