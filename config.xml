@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Hello World</name>
+    <name>Royal Sweet Mart</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Royal Sweetmeat Mart, one of the Pioneers in manufacturing and selling Delicious Indian Sweets in Sri Lanka; has been in operation since 1950. Being an innovator in the trade with its ever expanding variety of Indian Sweets, and a knack for knowing exactly how to satisfy everyone's sweet tooth, Royal Sweetmeat Mart became one of the must-go destinations where ever it set up one of its outlets.
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
